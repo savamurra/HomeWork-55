@@ -40,9 +40,9 @@ const App = () => {
                 setTotal(prevTotal => prevTotal + total.price);
             }
 
-            const ingred = ingredientsCount.find(item => item.name === ingredientName);
-            if (ingred) {
-                setItems([...items, ingred]);
+            const newIngredientToArray = ingredientsCount.find(item => item.name === ingredientName);
+            if (newIngredientToArray) {
+                setItems([...items, newIngredientToArray]);
             }
 
         };
