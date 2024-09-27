@@ -3,6 +3,14 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+
+h1{
+  background: #7fb527;
+  color: white;
+  padding: 7px;
+  margin-bottom: 30px;
 }
 
 
@@ -12,23 +20,16 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Montserrat", system-ui;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.order {
+  display: flex;
+  gap: 20px;
 }
-button:hover {
-  border-color: #646cff;
+
+p{
+  color: #aeabab;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
+
